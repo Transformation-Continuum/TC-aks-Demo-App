@@ -4,7 +4,7 @@ This reference implementation shows a set of best practices for building and run
 
 To quickly understand how the AKS Fabrikam Drone Delivery expands the AKS Seucure Baseline, please refer to the following table:
 
-|                                         | [AKS Secure Baseline](https://github.com/mspnp/aks-secure-baseline) | AKS Fabrikam Drone Delivery |
+|                                         | [AKS Secure Baseline](https://github.com/mspnp/aks-secure-baseline) | Azure Kubernetes Service (AKS) Demo application for Transformation Continuum |
 |-----------------------------------------|-------|----------|
 | Egress restriction using Azure Firewall |  ✅   |    ✅    |
 | Ingress Controller                      |  ✅   |    ✅    |
@@ -18,7 +18,7 @@ To quickly understand how the AKS Fabrikam Drone Delivery expands the AKS Seucur
 | Helm charts                             |  ❌   |    ✅    |
 | Distributed Monitoring                  |  ❌   |    ✅    |
 
-**AKS Fabrikam Drone Delivery is not just workload focused**, but also incoporates the infrastructure journey by expanding the [AKS Secure Baseline](https://github.com/mspnp/aks-secure-baseline). Similarly to what organizations might get into while trying to implement their own solutions by using as reference the AKS Secure Baseline, this reference implementation will carefully modify or simply interchange small pieces that could be the preference like using a different kind of Ingress Controller or deploying a different workload on top of. If you or your team are in day 0 or looking for infrastructure related aspects only, the recommendation is to start with the [AKS Secure Baseline](https://github.com/mspnp/aks-secure-baseline). If you want a more comprenhensive guidance to the point of deploying a more *interesting* workload this is right guidance to follow.
+**Azure Kubernetes Service (AKS) Demo application for Transformation Continuum is not just workload focused**, but also incoporates the infrastructure journey by expanding the [AKS Secure Baseline](https://github.com/mspnp/aks-secure-baseline). Similarly to what organizations might get into while trying to implement their own solutions by using as reference the AKS Secure Baseline, this reference implementation will carefully modify or simply interchange small pieces that could be the preference like using a different kind of Ingress Controller or deploying a different workload on top of. If you or your team are in day 0 or looking for infrastructure related aspects only, the recommendation is to start with the [AKS Secure Baseline](https://github.com/mspnp/aks-secure-baseline). If you want a more comprenhensive guidance to the point of deploying a more *interesting* workload this is right guidance to follow.
 
 ## Azure Architecture Center guidance
 
